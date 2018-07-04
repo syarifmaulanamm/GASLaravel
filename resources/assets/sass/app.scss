@@ -1,0 +1,162 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  margin-bottom: -23px;
+}
+
+#main-jumbotron {
+  background-color: #E32D91;
+  color: #FCD6ED;
+
+  .card {
+    color: #E32D91;
+  }
+}
+
+body {
+  color: #2C3E50;
+  background-color: white;
+}
+
+.text-pink {
+  color: #E32D91;
+  font-weight: bold;
+}
+
+.input-pink {
+  background-color: #FCD6ED;
+  border-width: 0px;
+  padding: 10px;
+  box-shadow: 0;
+  color: #E32D91;
+  // text-indent: 10px;
+}
+
+.btn-pink {
+  background-color: #E32D91;
+  color: #FCD6ED;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn-pink-outline {
+  color: #E32D91;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #E32D91;
+  border-radius: 50px;
+  transition: all .4s ease-in-out;
+  margin-bottom: 10px;
+  
+  &:hover {
+    background-color: #E32D91;
+    color: #FCD6ED;
+  }
+}
+
+.btn-yellow {
+  background-color: #F1C40F;
+  color: #464770;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  transition: all .4s ease-in-out;
+  margin-bottom: 10px;
+  
+  &:hover {
+    background-color: #f6b93b;
+  }
+}
+
+.btn-yellow-outline {
+  color: #F1C40F;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid #F1C40F;
+  border-radius: 50px;
+  transition: all .4s ease-in-out;
+  margin-bottom: 10px;
+  
+  &:hover {
+    background-color: #F1C40F;
+    color: #464770;
+  }
+}
+
+.btn-rounded {
+  border-radius: 50px;
+}
+.btn-w-50 {
+  width: 50%;
+}
+
+#notification {
+  position: relative;
+  margin-right: 15px;
+}
+
+#notification-count {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#main-menu {
+  background-color: #464770;
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: #FCD6ED;
+    }
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+.card-gas-1 {
+  box-shadow: 0px 10px 20px -10px rgba(227, 45, 145, 0.3);
+}
+
+#card-main-1 {
+  min-height: 250px;
+  background-image: url('/images/GAS_DESIGN_KIT-09.png');
+  background-repeat: no-repeat;
+  background-position: right 10px;
+}
+
+#card-main-2 {
+  min-height: 250px;
+  background-image: url('/images/GAS_DESIGN_KIT-10.png');
+  background-repeat: no-repeat;
+  background-position: right 10px;
+}
+
+#row-striped .row:nth-child(odd) {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  #card-main-1, #card-main-2 {
+    background-position: right 50px;
+  }
+}
